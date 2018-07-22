@@ -1,0 +1,206 @@
+@import url("https://use.typekit.net/ojv4ekx.css");
+/* Author - Sai Prasanna Krishna */
+html
+{
+background-color: #fff;
+font-size: 15px;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+min-width: 300px;
+overflow-x: hidden;
+overflow-y: scroll;
+}
+
+h1, h2, h3, h4, h5, h6,p {
+    font-family: "eurostile",sans-serif;
+}
+
+.navbar-brand>img{
+    height: 60px;
+    -webkit-animation-name: logo; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate; 
+}
+.navspec{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.navspec > .container{
+    display: flex;
+}
+.navbar-brand-welcome {
+    color:#00a1e0;
+}
+.section{
+    background:white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.jumbotron h2{
+    font-family: "europa",sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color:rgba(10,10,10,0.9);
+}
+
+.section h1{
+    word-break: break-word;
+    font-weight: bold;
+    font-size: 50px;
+    flex: 1;
+    color: black;
+}
+.section-is-primary  p{
+    font-size:19px;
+    word-break: break-word;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.section-is-primary .heading{
+    color: #00a1e0;
+    font-weight: bolder;
+}
+/* Author - Sai Prasanna Krishna */
+
+.section img{
+    max-width: 96px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+.container {
+    margin: 0 auto;
+    position: relative;
+}
+
+.is-center{
+    justify-content: center;
+    text-align: center!important    ;
+}
+.section-body{
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 3rem 1.5rem;
+}
+.section-is-primary{
+    background-color: #00a1e0;
+    color: #fff;
+    padding: 5rem 1.5rem;   
+}
+.section-is-secondary{
+    background-color:white;
+    color:black;
+    padding: 5rem 1.5rem;   
+}
+@media screen and (max-width:768px)
+{
+    .section h1{
+    font-size:25px;
+    }
+    .section h2{
+        font-size:18px;
+    }
+    .section img{
+        max-width: 70px;
+        margin-top: 12%;
+    }
+    .flex-grid{
+        display: initial!important;
+    }
+    .flex-grid div{
+        color:black;
+        border-bottom: solid 1px #d8d6d6;
+        border-right: none!important;
+    }
+    .flex-grid div:last-child{
+        border:none;
+    }
+    .section-is-primary p{
+        font-size:15px;
+    }
+    #skills img{
+        height: 80px!important;
+    }
+    .work-exp{
+        overflow-y: scroll;
+    }
+    .round-shape{
+        height: 50px;
+        width: 50px;
+    }
+}
+
+#skills{
+    border-radius: 12px;
+    max-width: 1200px;
+    background: white;
+    border: solid 0.5px #d2a4ad;
+}
+.thankyou{
+    font-size: 9px;
+    color: #9a9a9a;
+}
+#skills img{
+    height: 125px;
+    width: auto;
+    display: inline-block;
+}
+/* Author - Sai Prasanna Krishna */
+
+.flex-grid {
+    display: flex;
+  }
+.flex-grid div{
+    color:black;
+    border-right: solid 1px #d8d6d6;
+}
+.round-shape{
+    border-radius:12px;
+}
+.flex-grid div:last-child{
+    border-right: none;
+}
+.flex-grid b{
+    color:#00a1e0;
+}
+  .col {
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: column;
+    display: block;
+  }
+
+  /* Safari 4.0 - 8.0 */
+@-webkit-keyframes logo {
+    0%   {transform:rotate(72deg)}
+    25%  {transform:rotate(144deg)}
+    50%  {transform:rotate(216deg)}
+    75%  {transform:rotate(288deg)}
+    100% {transform:rotate(360deg)}
+}
+/* Author - Sai Prasanna Krishna */
+
+/* Standard syntax */
+@keyframes logo {
+    0%   {transform:rotate(72deg)}
+    25%  {transform:rotate(144deg)}
+    50%  {transform:rotate(216deg)}
+    75%  {transform:rotate(288deg)}
+    100% {transform:rotate(360deg)}
+}
+.heading-brand{
+    justify-content:flex-end;margin-left:  auto; 
+}
+
+/* Author - Sai Prasanna Krishna */
